@@ -16,7 +16,7 @@ To run and interact with this contract, you can utilize Remix, an online Integra
 
 3. Save the file with a .sol extension (e.g., HeroToken.sol).
 
-4. Copy and paste the provided Solidity code available in this GitHub repository: [HeroToken.sol](https://github.com/Eben321/EthProofPractice/blob/main/HeroToken.sol). Paste it into the newly created file.
+4. Copy and paste the provided Solidity code available in this GitHub repository: [HeroToken.sol](https://github.com/Vicson01/EthProofPractice/blob/main/HeroToken.sol). Paste it into the newly created file.
 
 5. Compile the code by navigating to the "Solidity Compiler" tab in the left-hand sidebar. Ensure that the "Compiler" option is set to "0.8.18" (or any other compatible version), and then click the "Compile HeroToken.sol" button.
 
@@ -24,7 +24,7 @@ To run and interact with this contract, you can utilize Remix, an online Integra
 
 7. Interact with the contract by invoking the 'mint' and 'burn' functions and querying the public variables (such as name, symbol, totalSupply, and token balances).
 
-   - To mint tokens: Click on the "HeroToken" contract in the left-hand sidebar. Then, click the down caret icon next to the "mint" function button to input the necessary parameters. Finally, click the "transact" button to execute the minting function with the specified amount of Eben tokens.
+   - To mint tokens: Click on the "HeroToken" contract in the left-hand sidebar. Then, click the down caret icon next to the "mint" function button to input the necessary parameters. Finally, click the "transact" button to execute the minting function with the specified amount of Hero tokens.
 
    - To burn tokens: Follow the same procedure as described above for the 'burn' function.
 
@@ -33,7 +33,7 @@ To run and interact with this contract, you can utilize Remix, an online Integra
 ## Author
 
 - Victor
-  - GitHub: [@Eben321](https://github.com/Eben321)
+  - GitHub: [@Vicson01](https://github.com/Vicson01)
 
 ## License
 
