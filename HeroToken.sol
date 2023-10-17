@@ -20,10 +20,8 @@ contract MyToken {
 
     // burn function
     function burn(address _tokenMInter, uint _value) public {
-        if (balances[_tokenMInter] >= _value) {
-            balances[_tokenMInter] -= _value;
-            totalSupply -= _value;
-        }
+        require(balances[_tokenMInter] >= _value, "The balance should be greater than the value to burn");
+        balances[_tokenMInter] -= _value;
+        totalSupply -= _value;
     }
-
 }
