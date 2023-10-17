@@ -1,42 +1,38 @@
-# MyToken Solidity Smart Contract
+## HeroToken Solidity Smart Contract Overview
 
-## Introduction
+**Introduction:**  
+Presented here is a practical Solidity smart contract named "HeroToken." This contract embodies the basic mechanics for minting and burning tokens on the Ethereum blockchain, with its moniker being "Hero" and the associated symbol as "HRT." Notably, the token's starting supply is zero.
 
-This Solidity smart contract is a practical implementation of a Token contract using the solidity programming language. It follows the fundamental syntax and functionality required to create an Ethereum token called "Hero" with the symbol "HRT." The contract supports token minting (creation) and burning (destruction) operations while maintaining a record of token balances for Ethereum addresses. The initial total token supply is set to 0.
+**Quick Start Guide:**
 
-## Getting Started
+### How to Deploy and Interact:
 
-To run and interact with this contract, you can utilize Remix, an online Integrated Development Environment (IDE) for Solidity. Here are the steps to begin:
+1. Navigate to the Remix IDE by accessing [https://remix.ethereum.org/](https://remix.ethereum.org/).
 
-### Execution Instructions
+2. In the left-hand sidebar, initiate a new file using the "+" icon.
 
-1. Visit the Remix website at [https://remix.ethereum.org/](https://remix.ethereum.org/).
+3. Assign your file a .sol extension, like "HeroToken.sol".
 
-2. Create a new file by clicking the "+" icon located in the left-hand sidebar.
+4. From this GitHub repository: [HeroToken.sol](https://github.com/Vicson01/EthProofPractice/blob/main/HeroToken.sol), copy the Solidity code. Then, insert it into the file you just created.
 
-3. Save the file with a .sol extension (e.g., HeroToken.sol).
+5. To compile, head to the "Solidity Compiler" section in the left panel. Choose the "0.8.18" version (or any other suitable version) for the "Compiler" setting. Then, trigger the "Compile HeroToken.sol" action.
 
-4. Copy and paste the provided Solidity code available in this GitHub repository: [HeroToken.sol](https://github.com/Vicson01/EthProofPractice/blob/main/HeroToken.sol). Paste it into the newly created file.
+6. To set the contract in motion, pick "HeroToken" from the dropdown within the "Deploy & Run Transactions" panel. Then, hit the "Deploy" button.
 
-5. Compile the code by navigating to the "Solidity Compiler" tab in the left-hand sidebar. Ensure that the "Compiler" option is set to "0.8.18" (or any other compatible version), and then click the "Compile HeroToken.sol" button.
+7. Engage with your contract! You can mint or burn tokens and inquire about various public attributes (like name, symbol, totalSupply, and specific token balances).
+   
+   - Minting tokens: Under the "HeroToken" section in the left panel, locate and expand the "mint" function. Fill in the desired parameters and then activate the "transact" button.
+   
+   - Burning tokens: Use the same approach but for the 'burn' function.
 
-6. Deploy the contract by selecting the "HeroToken" contract from the dropdown menu under the "Deploy & Run Transactions" tab in the left-hand sidebar. Click the "Deploy" button to initiate deployment.
+   - For balance inquiries of a particular Ethereum address: Insert the address next to the balance function and then execute.
 
-7. Interact with the contract by invoking the 'mint' and 'burn' functions and querying the public variables (such as name, symbol, totalSupply, and token balances).
-
-   - To mint tokens: Click on the "HeroToken" contract in the left-hand sidebar. Then, click the down caret icon next to the "mint" function button to input the necessary parameters. Finally, click the "transact" button to execute the minting function with the specified amount of Hero tokens.
-
-   - To burn tokens: Follow the same procedure as described above for the 'burn' function.
-
-   - To check the balance of a specific Ethereum address: Paste the address into the text field next to the balance button and click to retrieve the balance.
-
-## Author
+**About the Creator:**
 
 - Victor
-  - GitHub: [@Vicson01](https://github.com/Vicson01)
+  - Connect on GitHub: [@Vicson01](https://github.com/Vicson01)
 
-## License
-
-This project is licensed under the MIT License - refer to the [LICENSE.md](LICENSE.md) file for detailed information.
+**Usage Rights:**  
+This project operates under the MIT License. The [LICENSE.md](LICENSE.md) file provides extensive details.
 
 ---
